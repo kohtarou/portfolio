@@ -1,9 +1,19 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'kohportwork.github.io'; // Update this if your repo name changes
+
 const nextConfig = {
-    output: "export", // Enable static HTML export for GitHub Pages
+    output: "export",
     images: {
-        unoptimized: true, // Required for static export unless using a custom loader
+        unoptimized: true,
     },
+    // If deploying to impactful-username.github.io/repo-name/, set basePath.
+    // If deploying to impactful-username.github.io (User Site), basePath should be empty.
+    // However, sometimes assets need explicit handling.
+    // basePath: isProd ? `/${repoName}` : '', 
+    // For User Site (username.github.io), basePath is usually not needed.
+    // But if the user is seeing 404s for /images/..., let's try to ensure paths are root-relative.
 };
 
 export default nextConfig;
