@@ -2,6 +2,14 @@ import { Work } from "@/types";
 
 export const works: Work[] = [
     {
+        id: "index-design-article",
+        title: "インデックス設計・講義",
+        description: "データベースのインデックス設計に関する包括的な解説記事です。PostgreSQLの内部構造やコスト計算モデル、実験を通じたパフォーマンス検証について詳しくまとめています。",
+        images: [], // No explicit image provided
+        url: "https://kohtarou.github.io/INDEX-article/",
+        tags: ["Database", "PostgreSQL", "Article"],
+    },
+    {
         id: "polygon-sim",
         title: "正多角形シミュレーター",
         description: "数値を入力すると数値に対応した正多角形を表示します。右の多角形は5.5を入力した時の出力です。",
