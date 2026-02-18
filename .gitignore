@@ -1,36 +1,15 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Ignore dependencies and build cache in source
+source/node_modules
+source/.next
+source/out
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# Ignore root node_modules if any
+node_modules
+_next
 
-# testing
-/coverage
-
-# next.js
-/.next/
-
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Keep built files in root (index.html, etc) for GitHub Pages
+!index.html
+!404.html
+!favicon.ico
+!images/
+!_next/static/

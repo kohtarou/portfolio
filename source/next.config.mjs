@@ -5,6 +5,7 @@ const repoName = 'kohportwork.github.io'; // Update this if your repo name chang
 
 const nextConfig = {
     output: "export",
+    distDir: "../out",
     images: {
         unoptimized: true,
     },
