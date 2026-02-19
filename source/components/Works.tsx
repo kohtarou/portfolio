@@ -15,7 +15,7 @@ const Works = () => {
                             <div className="relative h-48 w-full overflow-hidden bg-gray-200 dark:bg-gray-700">
                                 {work.images && work.images.length > 0 ? (
                                     <Image
-                                        src={work.images[0]}
+                                        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${work.images[0]}`}
                                         alt={work.title}
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform duration-500"
