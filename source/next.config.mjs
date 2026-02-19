@@ -12,10 +12,9 @@ const nextConfig = {
     // If deploying to impactful-username.github.io/repo-name/, set basePath.
     // If deploying to impactful-username.github.io (User Site), basePath should be empty.
     // However, sometimes assets need explicit handling.
-    // If deploying to impactful-username.github.io (User Site), basePath should be empty.
-    basePath: '',
+    // basePath: isProd ? `/${repoName}` : '',
     env: {
-        NEXT_PUBLIC_BASE_PATH: '',
+        // NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : '',
     },
     // For User Site (username.github.io), basePath is usually not needed.
     // But if the user is seeing 404s for /images/..., let's try to ensure paths are root-relative.
