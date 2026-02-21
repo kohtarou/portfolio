@@ -13,7 +13,7 @@ export const works: Work[] = [
         id: "polygon-sim",
         title: "正多角形シミュレーター",
         description: "数値を入力すると数値に対応した正多角形を表示します。右の多角形は5.5を入力した時の出力です。",
-        images: ["/images/polygon/polygon2.png"],
+        images: ["/portfolio/images/polygon/polygon2.png"],
         url: "https://colab.research.google.com/drive/1tz-5BgrgPw6BeD558gC3bKBZ0qPfMv7s",
         tags: ["Python", "Simulation"],
     },
@@ -22,9 +22,9 @@ export const works: Work[] = [
         title: "刹那の見切り",
         description: "文化祭にチームで作成したゲームです。カービィのミニゲーム、刹那の見切りを参考しました。自分の役割は画像作成、調達、ゲーム性の判断でした。",
         images: [
-            "/images/mikiri/setsuna-mikiri.png",
-            "/images/mikiri/mikiri-image2.png",
-            "/images/mikiri/mikiri-image3.png",
+            "/portfolio/images/mikiri/setsuna-mikiri.png",
+            "/portfolio/images/mikiri/mikiri-image2.png",
+            "/portfolio/images/mikiri/mikiri-image3.png",
         ],
         url: "https://kou911.github.io/Fes/",
         tags: ["Game", "Team Project"],
@@ -33,7 +33,7 @@ export const works: Work[] = [
         id: "js-explanation",
         title: "JavaScriptについての解説をまとめたサイト",
         description: "JavaScript及びJavaScriptに関連する技術についての解説をまとめたサイトです。",
-        images: ["/images/programming-languages/JavaScript.png"],
+        images: ["/portfolio/images/programming-languages/JavaScript.png"],
         url: "https://kohtarou.github.io/JavaExplanation-main/",
         tags: ["JavaScript", "Documentation"],
     },
@@ -42,7 +42,7 @@ export const works: Work[] = [
         title: "サーバ構築の手順書",
         description: "この資料は、サーバ構築に関する手順書です。主に、これからサーバを構築する初学者を対象とし、まっさらなPCに対してWebサーバを立ち上げる方法を解説しています。Linux OSを利用し、特定のディストリビューションには依存せず、幅広い環境での適用が可能な内容です。",
         images: [], // No explicit image, maybe add a placeholder or PDF icon later
-        url: "/サーバー構築の手順書.pdf", // Moved to public? Wait, I moved .pdf to _backup. I need to move it to public too if it's referenced.
+        url: "/portfolio/サーバー構築の手順書.pdf", // Moved to public? Wait, I moved .pdf to _backup. I need to move it to public too if it's referenced.
         tags: ["Server", "Linux", "Documentation"],
     },
     {
@@ -58,11 +58,11 @@ export const works: Work[] = [
         title: "アイテム管理アプリ",
         description: "このアプリは、あるゲーム内のイベントの種類とアイテム獲得数をまとめて分かりやすく可視化する事を目的としたものです。今後も使っていく予定なので、どんどんアップデートしていこうと思います。",
         images: [
-            "/images/item-management/post-list.png",
-            "/images/item-management/post-detail.png",
-            "/images/item-management/login-empty.png",
-            "/images/item-management/login-filled.png",
-            "/images/item-management/admin-view.png",
+            "/portfolio/images/item-management/post-list.png",
+            "/portfolio/images/item-management/post-detail.png",
+            "/portfolio/images/item-management/login-empty.png",
+            "/portfolio/images/item-management/login-filled.png",
+            "/portfolio/images/item-management/admin-view.png",
         ],
         url: "https://item-total-app.vercel.app/",
         tags: ["Web App", "Game Tool"],
@@ -73,8 +73,8 @@ export const works: Work[] = [
         title: "スコア稼ぎゲーム「Shot」",
         description: "基本マウス操作で銃の照準を合わせ、目の前に次々出現する的をクリックで撃ってスコアを競うゲーム。",
         images: [
-            "/images/aim-score/shot1.png",
-            "/images/aim-score/shot2.png",
+            "/portfolio/images/aim-score/shot1.png",
+            "/portfolio/images/aim-score/shot2.png",
         ],
         url: "https://github.com/megumegu256/2024GroupC",
         tags: ["Game", "Shooting"],
