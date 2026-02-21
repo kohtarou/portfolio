@@ -2,10 +2,10 @@
 
 const nextConfig = {
     output: "export",
+    basePath: "/kohportwork.github.io", // Update to actual repo name
     images: {
         unoptimized: true,
     },
-    // kohportwork.github.io is a User Site (root domain), so basePath is not needed.
 };
 
 export default nextConfig;
