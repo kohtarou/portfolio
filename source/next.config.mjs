@@ -2,7 +2,7 @@
 
 const nextConfig = {
     output: "export",
-    basePath: "/kohportwork.github.io", // Update to actual repo name
+    basePath: "/portfolio", // ← リポジトリ名がportfolioに変更されているため、こちらが正解です
     images: {
         unoptimized: true,
     },
